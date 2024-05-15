@@ -54,8 +54,7 @@ async def main():
     message_link = MESSAGE_LINK
     delay = DELAY
     waktu = WAKTU
-    to_chats = ['@LPMBANTAIPENIPU', '@LPMTEMARU', '@LPM_UPSUBSSS_UPFOLL', '@lapak_lpm_jualan_trade_jaseb', '@LPMBUNGLON', 
-                '@lpm_bebasye', '@lpm_jualan_trade_bisnis', '@LPMM_NOKOSS', '@LPM_BEBASOOTNEE', '@Nokos_Lpm', '@lpm_roleplayerv', '@lpmgyh', '@lpmtradeupfolligortt', '@lpmjualanv', '@LPMGOJO']
+    to_chats = ['@Lpm_upsubsupfoll', '@LpmUpSubSupFolll', '@lpm_roleplay', '@LPM_RPP', '@LPMIRENEBAE']
     end_time = datetime.now() + timedelta(hours=waktu)
     while datetime.now() < end_time:
         await forward_message(client, message_link, to_chats)
