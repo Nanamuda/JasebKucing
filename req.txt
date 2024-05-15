@@ -1,0 +1,6 @@
+asyncio
+aiohttp
+telethon
+python-dotenv
+unidecode
+uvloop

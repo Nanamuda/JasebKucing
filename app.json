@@ -1,0 +1,45 @@
+{
+  "name": "Script Anon",
+  "description": "ini adalah userbot Telegram modular yang berjalan di Python3 dengan Library Pyrogram.",
+  "stack": "container",
+  "env": {
+    "API_ID": {
+      "description": "ISI PAKE OTAK",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "ISI AJA SEBISA LU",
+      "required": true
+    },
+    "DELAY": {
+      "description": "ISI AJA SEBISA LU",
+      "required": true
+    },
+    "WAKTU": {
+      "description": "ISI AJA SEBISA LU",
+      "required": true
+    },
+    "MESSAGE_LINK": {
+      "description": "ISI AJA SEBISA LU",
+      "required": true
+    },
+    "STRING": {
+      "description": "Dapatkan String Session Pyrogram di Grup » https://t.me/SharingUserbot » Lalu ketik #string",
+      "required": true
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+    }
+  ],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "basic"
+    }
+  }
+}
