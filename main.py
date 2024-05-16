@@ -22,6 +22,7 @@ client = TelegramClient(
         auto_reconnect=True,
         connection_retries=None,
         device_model="@Qwertystore",
+        app_version="Qwerty 1.0",
 )
 
 async def forward_message(client, message_link, to_chats):
